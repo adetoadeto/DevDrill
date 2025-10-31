@@ -27,7 +27,7 @@ function LoginPage() {
           <SmallButton text="LOGIN" />
         </form>
         <p>
-          New User? <Link to="/DevDrill/account">REGISTER</Link>
+          New User? <Link to="/account">REGISTER</Link>
         </p>
       </div>
     </modal>

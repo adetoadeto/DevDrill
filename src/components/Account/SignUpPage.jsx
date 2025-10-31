@@ -26,7 +26,7 @@ function SignUpPage() {
           <SmallButton text="REGISTER" />
         </form>
          <p>
-            Already have an Account? <Link to="/DevDrill/account/login">LOGIN</Link>
+            Already have an Account? <Link to="/account/login">LOGIN</Link>
           </p>
       </div>
     </modal>

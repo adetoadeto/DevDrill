@@ -19,22 +19,22 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/DevDrill" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
 
-          <Route path="/DevDrill/play" element={<GamePage/>}>
+          <Route path="/play" element={<GamePage/>}>
             <Route index element={<LandingPage/>} />
-            <Route path="/DevDrill/play/game-started" element={<QuestionsPage/>} />
-            <Route path="/DevDrill/play/game-summary" element={<QuizSummary/>} />
+            <Route path="/play/game-started" element={<QuestionsPage/>} />
+            <Route path="/play/game-summary" element={<QuizSummary/>} />
           </Route>
 
-          <Route path="/DevDrill/account" element={<AccountPage/>}>
+          <Route path="/account" element={<AccountPage/>}>
             <Route index element={<SignUpPage/>} />
-            <Route path="/DevDrill/account/login" element={<LoginPage/>} />
+            <Route path="/account/login" element={<LoginPage/>} />
           </Route>
 
-           <Route path="/DevDrill/admin" element={<AdminDashboard/>}/>
+           <Route path="/admin" element={<AdminDashboard/>}/>
 
-           <Route path="/DevDrill/user" element={<CustomerDashboard/>}/>
+           <Route path="/user" element={<CustomerDashboard/>}/>
         </Routes>
         <Footer />
       </Router>

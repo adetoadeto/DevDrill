@@ -13,7 +13,7 @@ function QuizSummary () {
           <QuizSummaryCard heading="Questions Failed" text="2"/>
           <QuizSummaryCard heading="Score" text="80%" id="fill"/>
         </div>
-        <button className="small-button"><Link to="/DevDrill/play">Play Again</Link></button>
+        <button className="small-button"><Link to="/play">Play Again</Link></button>
     </section>
   )
 }

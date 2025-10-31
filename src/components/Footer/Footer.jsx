@@ -12,9 +12,9 @@ function Footer () {
         <ul>
           <p className="heading">Links</p>
           <ul>
-            <Link to="/DevDrill">Home</Link>
+            <Link to="/">Home</Link>
             <li><a href="/#overview-section">Overview</a></li>
-            <Link to="/DevDrill/play">Explore Game</Link>
+            <Link to="/play">Explore Game</Link>
           </ul>
         </ul>
 

@@ -29,7 +29,7 @@ function LandingPage () {
                   <SmallButton text="Advanced"/>
             </div>
         </div>
-        <button className="small-button"><Link to="/DevDrill/play/game-started">Start Quiz</Link></button>
+        <button className="small-button"><Link to="/play/game-started">Start Quiz</Link></button>
     </section>
   )
 }

@@ -12,7 +12,7 @@ function QuestionsPage ()  {
           <strong>NodeJS</strong>
           <div><strong className="heading">Stage:</strong><span>Intermediate</span></div>
           <div><strong className="heading">Best record:</strong><span>35 questions answered in 10 mins</span></div>
-          <button className="small-button"><Link to="/DevDrill/play/game-summary">End Game</Link></button>
+          <button className="small-button"><Link to="/play/game-summary">End Game</Link></button>
         </div>
         </aside>
 

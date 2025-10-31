@@ -1,0 +1,88 @@
+.customers-dashboard {
+    background-color: var(--purple-100);
+    padding: 2rem var(--spacing-x);
+}
+.customers-dashboard h1 {
+    font-size: 1.7rem;
+    color: var(--purple);
+}
+.customers-dashboard > div {
+    margin: 2rem 0 3rem;   
+}
+.customers-dashboard h2 {
+    font-size: 1.4rem;
+}
+.customers-dashboard > div > div {
+    margin-top: 1.2rem;
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.116);
+}
+.customers-dashboard > div > div  p {
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.customers-dashboard > div > div > p span:first-child {
+    width: 25%;
+    color: var(--purple);
+}
+.customers-dashboard > div > div > p span:last-child {
+    width: 50%;
+    font-weight: bold;
+}
+.customers-dashboard > div > div hr {
+    border: 1px solid var(--purple-100);
+}
+.customers-dashboard__security-privacy > div > div > p {
+    display: flex;
+    justify-content: space-between ;
+    color: var(--purple);
+}
+.customers-dashboard__security-privacy form {
+    margin: 0 1.2rem 1.2rem;
+    padding: 1.5rem;
+    border: 1px dashed var(--purple);
+    border-radius: var(--border-radius);
+}
+.customers-dashboard__security-privacy label {
+    margin-right: 1rem;
+}
+.customers-dashboard__security-privacy input {
+    width: 30%;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--purple);
+    margin-right: 2rem;
+}
+.customers-dashboard__security-privacy input::placeholder {
+    color: rgba(128, 0, 128, 0.425);
+}
+.customers-dashboard__security-privacy form .buttons{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+.customers-dashboard__security-privacy  form button {
+    background-color: var(--purple);
+    color: var(--white);
+}
+.customers-dashboard__security-privacy article {
+    padding: 0 1.2rem 1.2rem;
+    line-height: 2;
+}
+.customers-dashboard__payment-history table {
+    background-color: var(--white);
+    margin-top: 1.2rem;
+    padding: 1rem 0;
+    line-height: 2.5;
+    border-radius: var(--border-radius);
+    border-collapse: separate;
+    border-spacing:  2rem 0 ;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.116);
+}
+.customers-dashboard__payment-history table th {
+    color: var(--purple);
+}
+

@@ -1,0 +1,121 @@
+.game-section__questions-page {
+    padding: 0 var(--spacing-x) 1.5rem ;
+    display: flex;
+    gap: 3rem;
+    background-color: var(--purple-50);
+}
+.game-section__questions-page aside {
+    width: 300px;
+    height: fit-content;   
+} 
+.game-section__questions-page aside img {
+    height: 100%;
+    width: 100%;
+}
+.game-section__questions-page .aside-articles,
+.game-section__questions-page .aside-articles > div{
+    display: flex;
+    flex-direction: column;
+} 
+.game-section__questions-page .aside-articles {
+    padding: 1.4rem;
+    border-radius: 10px;
+    gap: 1.5rem;
+    height: fit-content;
+    box-shadow: -10px 10px 0 rgba(0, 0, 0, 0.192);
+    background-color: var(--purple-100);
+} 
+.game-section__questions-page .aside-articles > strong {
+    font-size: 1.1rem;
+}
+.game-section__questions-page .aside-articles > div{
+   line-height: 1.9;
+}
+.game-section__questions-page .aside-articles > div strong {
+    color: var(--purple);
+} 
+.game-section__questions-page .aside-articles button {
+    background-color: var(--purple);
+    color: var(--white);
+    width: fit-content;
+}
+.game-section__questions-page .aside-articles button:hover {
+    background-color: rgba(128, 0, 128, 0.13);
+    color: var(--purple);
+    border: 1px solid var(--purple);
+}
+
+.game-section__questions-page > div {
+    padding: 2rem 2.5rem;
+    background-color: var(--purple-100);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+     box-shadow: -10px 10px 0 rgba(0, 0, 0, 0.192);
+}
+/* section 1 */
+.question-box__header h2 {
+    text-transform: uppercase;
+    color: var(--purple);
+}
+.question-box__header,
+.question-box__header > div {
+    display: flex;
+    justify-content: space-between;
+}
+.question-box__header > div {
+    gap: 0.5rem;
+}
+.question-box__header > div strong, .question-box__header > div p strong {
+    font-size: 1.5rem;
+    color: var(--purple);
+}
+.question-box__header > div p {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.question-box__header > div p strong {
+    border: 1px solid var(--purple);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0.1rem 0.3rem;
+    margin: auto;
+}
+.question-box__header > div p span {
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* section 2 */
+.question-box__title { 
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.question-box__title p {
+    line-height: 1.8;
+}
+.question-box__options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.question-box__options p {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--purple);
+}
+.game-section__questions-page > div > button {
+    align-self: flex-end;
+    background-color: var(--purple);
+    color: var(--white);
+}
+.game-section__questions-page > div > button:hover {
+    background-color: var(--white);
+    color: var(--purple);
+    border: 1px solid var(--purple);
+}

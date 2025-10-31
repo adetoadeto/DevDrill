@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../components/Home/home.css";
 import LargeButton from "../components/Button/LargeButton";
-import Overview from "../components/Home/overview";
+import Overview from "../components/Home/Overview";
 import Reviews from "../components/Home/Reviews";
 import Img2 from "../assets/walking-apple.png";
 import heroImg from "../assets/heroImg.png";

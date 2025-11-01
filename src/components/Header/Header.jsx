@@ -1,8 +1,8 @@
 import "./header.css";
 import { Link } from "react-router-dom";
 
-let signedIn = true;
-let admin = true;
+let signedIn = false;
+let admin = false;
 function Header() {
   return (
     <nav>
@@ -19,7 +19,7 @@ function Header() {
       </ul>
 
       {!signedIn ? (
-        <button className="small-button">
+        <button className="small-button signup">
           <Link to="/account">
             Sign Up <i class="fa-solid fa-user-plus"></i>{" "}
           </Link>

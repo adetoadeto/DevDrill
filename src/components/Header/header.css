@@ -31,3 +31,8 @@ nav a:hover{
     padding: 0.5rem;
     border-radius: var(--border-radius);
 }
+nav .signup a:hover {
+    border: none;
+    border-radius: none;
+    padding: 0;
+}

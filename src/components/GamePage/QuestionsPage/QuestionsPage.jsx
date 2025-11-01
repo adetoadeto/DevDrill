@@ -1,13 +1,13 @@
 import "./QuestionsPage.css";
 import SmallButton from "../../Button/SmallButton";
 import { Link } from "react-router-dom";
-import img1 from "../../../assets/walking-apple.png"
+import alarmClock from "../../../assets/alarm-clock.png"
 
 function QuestionsPage ()  {
   return (
     <section className="game-section__questions-page">
         <aside>
-          <img src={img1} alt="" />
+          <img src={alarmClock} alt="" />
           <div className="aside-articles">
           <strong>NodeJS</strong>
           <div><strong className="heading">Stage:</strong><span>Intermediate</span></div>
@@ -31,11 +31,11 @@ function QuestionsPage ()  {
           </div>
 
           <div className="question-box__options">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequuntur nulla dicta harum possimus.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, molestias?
-            </p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequuntur nulla dicta harum possimus.</button>
+            <button>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequuntur nulla dicta harum possimus.</button>
+            <button>Lorem ipsum dolor sit amet consectetur adipisicing elit. </button>
+            <button>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequuntur </button>
+            
           </div>
           <SmallButton text="Next"/>
         </div>

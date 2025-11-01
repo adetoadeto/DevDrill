@@ -40,8 +40,8 @@
 .game-section__quiz-summary > div > div strong {
     font-size: 2rem;
 }
-.game-section__quiz-summary > div > div strong#fill, .game-section__quiz-summary > p a {
-
+.game-section__quiz-summary a:hover {
+    text-decoration: underline;
 }
 .game-section__quiz-summary button {
     width: fit-content;

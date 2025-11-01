@@ -29,7 +29,7 @@
     color: inherit;
     padding: 0.5rem 0.8rem;
 }
-.game-section__landing-page button.active {
+.game-section__landing-page button.active, .game-section__landing-page button:hover {
     background-color: var(--purple);
     color: var(--white);
 }

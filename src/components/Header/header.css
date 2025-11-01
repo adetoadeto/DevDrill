@@ -2,17 +2,18 @@ nav {
     padding: 0.9rem var(--spacing-x);
     background-color: var(--purple);
     color: var(--white);
-}
-nav > a:hover {
-    text-decoration: none !important;
+    height: 40px;
 }
 nav, nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav ul {
-    gap: 3rem;
+nav ul:first-of-type {
+    gap: 4rem;
+}
+nav ul:last-of-type {
+   gap: 1.5rem
 }
 nav button {
     box-shadow: 0 0 15px rgb(70, 70, 70);
@@ -21,10 +22,12 @@ nav button {
     color: var(--text-color);
     font-weight: normal;
 }
-nav button a:hover {
-    text-decoration: none;
-}
 nav button:hover {
     background-color: var(--purple);
     color: var(--white);
+}
+nav a:hover{
+    border: 1px solid var(--white);
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
 }

@@ -1,0 +1,154 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--spacing-x);
+    height: 400px;
+    background-color: var(--purple-50);
+    /* background-color: #f0f8ff; */
+}
+main article {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    justify-content: center;
+    line-height: 1.5;
+}
+main article p {
+    width: 80%;
+    line-height: 2;
+}
+main article .small-button {
+    width: fit-content;
+    background-color: var(--purple);
+    color: var(--white);
+    box-shadow: var(--small-box-shadow);
+}
+main article button:hover {
+    background-color: var(--white);
+    color: var(--purple);
+    border: 1px solid var(--purple);
+}
+main > div {
+   height: 100%;  
+}
+main > div img {
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
+
+/* Explore fields */
+.explore-fields {
+    padding: var(--spacing-y) var(--spacing-x);
+    background-color: var(--purple-100);
+}
+.explore-fields > p {
+    margin: 1rem 0;
+}
+.explore-fields > div {
+    margin-top: var(--spacing-y);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.explore-fields > div > button {
+     box-shadow: var(--small-box-shadow);
+}
+.explore-fields > div button#fill {
+    background-color: var(--purple);
+    color: var(--white);
+}
+.explore-fields > div button#transparent {
+    background-color: var(--white);
+    color: var(--purple);
+}
+
+/* Overview Section */
+#overview-section {
+    height: fit-content;
+    padding: var(--spacing-y) var(--spacing-x);
+}
+#overview-section p {
+    line-height: 1.9;
+}
+#overview-section > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+#overview-section > div div {
+    box-shadow: var(--big-box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    padding: 0 1.5rem;
+}
+#overview-section > div div.fill {
+    background-color:  purple;
+    color: white;
+}
+#overview-section > div div.outline {
+    border: 1px solid purple;
+}
+#overview-section > div div p {
+    text-align: center;
+}
+#overview-section > div i {
+    color: var(--purple);
+}
+
+/* Review Section */
+.review-section {
+    padding: var(--spacing-y) var(--spacing-x);
+    background-color: var(--purple-100);
+}
+.review-section > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1.5rem; 
+}
+.review-section--box {
+    box-shadow: var(--big-box-shadow);
+    width: fit-content;
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius-md);
+}
+.review-section--box > p {
+    margin-top: 1rem;
+    line-height: 1.9;
+}
+.review-section--box .user-profile,
+.review-section--box .user-profile > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-section--box .user-profile > div {
+    gap: 1rem;
+}
+.review-section--box .user-profile > div img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review-section--box .user-profile img {
+    height: 25px;
+}
+.review-section > div > img {
+    height: 200px;
+}
+

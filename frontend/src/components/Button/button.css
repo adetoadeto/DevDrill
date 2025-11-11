@@ -1,0 +1,8 @@
+.small-button {
+    padding: 0.5rem 1rem;
+}
+.large-button {
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+}

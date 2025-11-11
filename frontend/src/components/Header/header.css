@@ -1,0 +1,29 @@
+nav {
+    padding: 0.9rem var(--spacing-x);
+    background-color: var(--purple);
+    color: var(--white);
+    height: 70px;
+}
+nav, nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+}
+nav .nav-links {
+    gap: 4rem;
+}
+nav .settings-links{
+   gap: 1.5rem
+}
+nav button {
+    box-shadow: 0 0 15px rgb(70, 70, 70);
+    background-color: var(--white);
+    color: var(--purple);
+}
+
+nav a:hover{
+    border: 1px solid var(--white);
+    padding: 0.5rem;
+    border-radius: var(--border-radius-sm);
+}

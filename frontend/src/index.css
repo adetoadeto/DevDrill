@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --border-radius-sm: 5px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+  --border-radius-xl: 20px;
+  --white: white;
+  --purple-50: rgba(128, 0, 128, 0.034);
+  --purple-100: rgba(128, 0, 128, 0.103);
+  --purple: #800080;
+  --text-color: #4D4F53;
+  --spacing-x: 5rem;
+  --spacing-y: 2rem;
+  --font-body: "Open Sans", sans-serif;
+  --font-heading: "Libre Baskerville", serif;
+  --small-box-shadow: -5px 5px 0 rgba(128, 0, 128, 0.137);
+  --big-box-shadow: -10px 10px 0 rgba(128, 0, 128, 0.137);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  color: var(--text-color);
+  font-family: var(--font-body);
+  background-color: var(--purple-50);
+}
+h1, h2, h3, .heading {
+  font-family: var(--font-heading);
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h1 span,
+h2 span {
+  color: var(--purple);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+    border: none;
+    font: inherit;
+    font-weight: bold;
+    border-radius: var(--border-radius-sm);
+    background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+}
+dialog {
+    height: fit-content;
+    margin: auto;
+    width: 80%;
+    border-radius: var(--border-radius-lg);
+    overflow-y: hidden;
+    border: none;
+    background-color: var(--white);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.116);
+}
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.877);
+}
+.close-modal {
+    font-size: 2.5rem;
+    background-image: linear-gradient(to right, rgb(148, 4, 214), rgb(199, 12, 199));
+    background-clip: text;
+    color: transparent;
+}
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none;
+}

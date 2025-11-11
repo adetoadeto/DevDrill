@@ -1,0 +1,102 @@
+.profile-settings {
+    background-color: var(--purple-100);
+    padding: 2rem var(--spacing-x);
+}
+.profile-settings hr {
+    border: 1px solid var(--purple-100);
+}
+.profile-settings p, 
+.profile-settings article {
+    padding: 1.2rem;
+}
+.profile-settings h1 {
+    font-size: 1.7rem;
+    color: var(--purple);
+}
+.profile-settings > div {
+    margin: 2rem 0 3rem;     
+}
+.profile-settings > div h2 {
+    font-size: 1.4rem;
+}
+.profile-settings > div > div {
+    margin-top: 1.2rem;
+    background-color: var(--white);
+    border-radius: var(--border-radius-sm);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.116);
+}
+.profile-settings > div > div p {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+/* ACCOUNT INFORMATION */
+.profile-settings__account-information > div > p span:first-child {
+    width: 25%;
+    color: var(--purple);
+}
+.profile-settings__account-information > div > p span:last-child {
+    width: 50%;
+    font-weight: bold;
+}
+
+/* SECURITY AND PRIVACY */
+.profile-settings__security-privacy > div > div > p {
+    display: flex;
+    justify-content: space-between ;
+    color: var(--purple);
+}
+.profile-settings__security-privacy > div > div > p button {
+    color: var(--purple);
+    margin: 0;
+}
+.profile-settings__security-privacy form {
+    padding: 1.5rem;
+    border: 1px dashed var(--purple);
+    border-radius: var(--border-radius-sm);
+    margin: 1rem 1.2rem;
+    display: none;
+}
+.profile-settings__security-privacy label {
+    margin-right: 1rem;
+}
+.profile-settings__security-privacy input {
+    width: 30%;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--purple);
+    margin-right: 2rem;
+}
+.profile-settings__security-privacy input::placeholder {
+    color: rgba(128, 0, 128, 0.425);
+}
+.profile-settings__security-privacy form button {
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 0.4rem 0.6rem;
+}
+.profile-settings__security-privacy .update-password form button {
+    margin-top: 1.5rem;
+}
+
+/* privacy policy */
+.privacy-policy-container article {
+    display: none;
+    line-height: 2;
+}
+/* PAYMENT HISTORY  */
+.profile-settings__payment-history table {
+    background-color: var(--white);
+    margin-top: 1.2rem;
+    padding: 0.5rem 0;
+    line-height: 2.5;
+    border-radius: var(--border-radius-sm);
+    border-collapse: separate;
+    border-spacing: 1rem 0 ;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.116);
+}
+.profile-settings__payment-history table th {
+    color: var(--purple);
+}
+

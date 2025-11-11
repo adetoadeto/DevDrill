@@ -1,0 +1,50 @@
+.quiz-summary-modal {
+    width: fit-content;
+    position: relative;
+}
+.quiz-summary-modal > form {
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    left: -10px;
+}
+.game-section__quiz-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: var(--spacing-y);
+    align-items: center;
+    color: var(--purple);
+}
+.game-section__quiz-summary i {
+    color: var(--purple);
+    font-size: 2.5rem;
+}
+.game-section__quiz-summary > div {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.game-section__quiz-summary > div > div {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.144);
+    line-height: 1.5;
+    background-color: var(--purple-100);
+    width: 200px;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: var(--border-radius-sm);
+    text-align: center;
+}
+.game-section__quiz-summary > div > div strong {
+    font-size: 2rem;
+}
+.game-section__quiz-summary a:hover {
+    text-decoration: underline;
+}
+.game-section__quiz-summary button {
+    width: fit-content;
+    background-color: var(--purple);
+    color: var(--white);
+}

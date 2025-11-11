@@ -1,0 +1,60 @@
+/* Premium Plan */
+.premium-plan {
+    width: 750px;
+}
+.premium-plan .close-modal {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    top: -8px;
+}
+.premium-plan-modal {
+    padding: 2rem 2rem 1rem;
+    line-height: 1.7;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.premium-plan-modal h2 {
+    font-size: 1.8rem;
+    line-height: 2;
+}
+.premium-plan-modal strong {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    font-family: var(--font-heading);
+}
+.premium-plan-modal > div:first-of-type {
+    width: 50%;
+}
+.premium-plan-modal > div:first-of-type > div  {
+    margin: 2rem 0;
+    line-height: 2.5;
+}
+.premium-plan-modal > div:first-of-type div > div {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.premium-plan-modal > div:first-of-type div > div i {
+    border-radius: var(--border-radius-sm);
+    padding: 0.1rem;
+    vertical-align: middle;
+    align-self: center;   
+    color: var(--white); 
+    background-image: linear-gradient(to right, rgb(148, 4, 214), rgb(199, 12, 199));   
+}
+.premium-plan-modal > div:last-of-type {
+    width: 50%;
+}
+.premium-plan-modal > div:last-of-type img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.premium-plan-modal button {
+    border-radius: var(--border-radius-lg);
+    background-image: linear-gradient(to right, rgb(148, 4, 214), rgb(199, 12, 199));
+    color: var(--white);
+    margin-top: 0.5rem;
+}

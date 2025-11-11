@@ -1,0 +1,48 @@
+.game-section__landing-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.192);
+    height: fit-content;
+    width: fit-content;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-y);
+    background-color: var(--purple-100);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.game-section__landing-page > div {
+    margin-top: 1rem;
+}
+.game-section__landing-page > div > div {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 0.5rem;
+    color: var(--purple);
+}
+.game-section__landing-page button {
+    font: inherit;
+    background-color: var(--white);
+    color: inherit;
+    padding: 0.5rem 0.8rem;
+}
+.game-section__landing-page button.active, .game-section__landing-page button:hover {
+    background-color: var(--purple);
+    color: var(--white);
+}
+.game-section__landing-page > button {
+    width: fit-content;
+    align-self: flex-end;
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: bold;
+
+}
+.game-section__landing-page > button:hover {
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 0.9rem;
+}
